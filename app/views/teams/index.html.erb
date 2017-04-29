@@ -1,0 +1,15 @@
+
+<div class="container_teams">
+  <div class="log_league">
+  <h1><%= link_to "Join League", new_team_path %><span>
+   Premier League </span></h1>
+ </div>
+  <div class= "wrapper">
+    <% @teams.each do |team| %>
+      <div class="team_container">
+        <%= image_tag team.log%>
+        <h3><%= link_to team.team_name, team_path(team) %></h3>
+      </div>
+    <% end %>
+  </div>
+</div>

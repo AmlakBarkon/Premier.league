@@ -1,6 +1,9 @@
 // Place all the styles related to the Teams controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background-color: yellow;
+}
 
 div.wrapper {
 
@@ -8,7 +11,7 @@ div.wrapper {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-
+  background-color: rgb(215,137,90)
 }
 
 div.team_container {
@@ -27,9 +30,13 @@ div.team_container img {
 
 
 }
+div.log_league {
+  background-color: rgb(3,69,137)
+}
+
 .container_teams h1 {
   text-align: center;
-  background-color: black;
+
   color: white;
 
   font-size: 60px;
@@ -71,4 +78,16 @@ div.container_show h3 {
 }
 .container_show {
   background-color: gray;
+}
+div.new_member {
+  text-align: center;
+
+  background-color: blue;
+
+}
+div.log_top_left{
+  text-align: center;
+  float: left;
+  display: block;
+
 }

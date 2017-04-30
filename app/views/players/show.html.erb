@@ -1,13 +1,11 @@
 <div class ="player_show_container">
+  <div class = "player_history_show">
 <%= link_to "Edit",edit_team_player_path([:team_id],[:id])%>
   <h2> <%= @player.name %></h2>
-  <h2> Nationality :<%=@player.nationality %></h2>
+  <h2> Nationality :<%= @player.nationality %></h2>
+  <h2> Age :<%= @player.age %>
+  </div>
     <div class="player_show_playe">
       <%= image_tag @player.img_url %>
-
     </div>
-
-
-
-
 </div>

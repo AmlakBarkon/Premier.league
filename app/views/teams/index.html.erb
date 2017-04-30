@@ -1,8 +1,13 @@
 
 <div class="container_teams">
+
   <div class="log_league">
-  <h1><%= link_to "Join League", new_team_path %>
-   Premier League </h1>
+    <div class="log_top_left">
+  <h2><%= link_to "Join League", new_team_path %><h2>
+  </div>
+  <div class ="premier_league">
+  <h1> Premier League </h1>
+</div>
  </div>
   <div class= "wrapper">
     <% @teams.each do |team| %>

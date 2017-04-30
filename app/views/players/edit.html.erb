@@ -1,0 +1,13 @@
+<h1>Edit Player Profile</h1>
+<%= form_for [@team,@player] do |player| %>
+
+<%= team.label :name %>
+<%= team.text_field :name %>
+
+<%= team.label :nationality %>
+<%= team.text_field :natinality %>
+
+ <%= team.label :log %>
+ <%= team.text_field :log %>
+ <%= team.submit "create" %>
+<% end %>

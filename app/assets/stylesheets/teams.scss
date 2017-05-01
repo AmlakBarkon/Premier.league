@@ -11,7 +11,11 @@ div.wrapper {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: rgb(215,137,90)
+  background-color: rgb(215,137,90);
+}
+div.team_container img {
+  margin-top: 40px;
+  width: 200px;
 }
 
 div.team_container {
@@ -24,23 +28,25 @@ div.team_container {
   margin-top: 20px;
 }
 
-div.team_container img {
-  margin-top: 30px;
-  width: 200px;
-
-
-}
 div.log_league {
-  background-color: rgb(3,69,137)
+ background-color: rgb(3,68,132);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.container_teams h1 {
+div.log_top_left h1{
+  font-size: 35px;
+  color:white;
+
+}
+div.premier_league {
   text-align: center;
+  color: black;
+  font-size: 30px;
+  font-family: cursive;
 
-  color: white;
-
-  font-size: 60px;
-  font-family: cursive;;
 }
 
 div.players_show {
@@ -81,13 +87,11 @@ div.container_show h3 {
 }
 div.new_member {
   text-align: center;
-
   background-color: blue;
 
 }
-div.log_top_left{
-  text-align: center;
-  float: left;
-  display: block;
-
+div.new_team_name {
+  display: flex;
+  flex-direction: row;
+  
 }

@@ -1,14 +1,22 @@
 <div class= "new_member">
 <h1> Join the Premier League </h1>
+  <div class ="new_team_container">
+<div class = "new_team_name">
   <%= form_for @team do |team| %>
   <%= team.label :team_name %>
   <%= team.text_field :team_name %><br>
-
+  </div>
+  <div class ="new_team_coach">
   <%= team.label :coach %>
   <%= team.text_field :coach %><br>
-
+  </div>
+  <div class = "new_team_log">
    <%= team.label :log %>
    <%= team.text_field :log %>
+ </div>
+ <div class = "new_team_submit">
    <%= team.submit "Join" %>
+ </div>
   <% end %>
+</div>
 </div>

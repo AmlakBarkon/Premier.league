@@ -1,8 +1,9 @@
 
 <div class = "container_show">
+<h2> <%=link_to "Player Join Team",new_team_player_path(@team,@player) %></h2>
   <h2><%= link_to "Out of League", team_path(@team), method: :delete%></h2>
   <h1><%= @team.team_name %></h1>
-  <h2><%= @team.coach %></h2>
+  <h2>Coach :<%= @team.coach %></h2>
   <div class ="players_show">
     <% @team.players.each do |player| %>
       <div class = "player_pic">

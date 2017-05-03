@@ -7,6 +7,7 @@ class TeamsController < ApplicationController
   end
   def create
     @team = Team.create(team_params)
+    
     redirect_to teams_path
   end
   def show
@@ -17,7 +18,7 @@ class TeamsController < ApplicationController
      @team.destroy
     redirect_to teams_path
   end
-  
+
   private
   def team_params
     params.require(:team).permit(:team_name, :coach, :log)

@@ -1,0 +1,19 @@
+<div class ="form">
+  <h1> New Player form </h1>
+  <%= form_for [@team, @player] do |f| %>
+  <h4>  <%= f.label :name %></h4>
+  <%= f.text_field :name%>
+
+  <h4><%= f.label :nationality %></h4>
+  <%= f.text_field :nationality%>
+
+  <h4>  <%= f.label :age %></h4>
+  <%= f.text_field :age %>
+
+  <h4><%= f.label :img_url %></h4>
+  <%= f.text_field :img_url%>
+
+  <h4><%= f.submit "Join" %></h4>
+
+  <% end %>
+</div>

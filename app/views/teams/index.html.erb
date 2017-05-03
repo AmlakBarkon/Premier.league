@@ -2,11 +2,15 @@
 <div class="container_teams">
 
   <div class="log_league">
-    <div class="log_top_left">
-      <h2><%= link_to "Join League", new_team_path %><h2>
+    <div class="log-right">
+
       </div>
-      <div class ="premier_league">
+      <div class ="log-left">
+        <% flash.each do |type, message| %>
+          <p><%= type %>: <%= message %></p>
+        <% end %>
         <h1> Premier League </h1>
+          <h4><%= link_to "Join League", new_team_path %><h4>
       </div>
     </div>
     <div class= "wrapper">

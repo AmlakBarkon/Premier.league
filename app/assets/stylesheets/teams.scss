@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body {
-  background-color: yellow;
+  background-color: gray;
 }
 
 div.wrapper {
@@ -11,7 +11,7 @@ div.wrapper {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: rgb(215,137,90);
+  background-color: rgb(21,137,90);
 }
 div.team_container img {
   margin-top: 40px;
@@ -21,6 +21,7 @@ div.team_container img {
 div.team_container {
   width: 300px;
   height: 300px;
+  border-radius: 50px;
   background-color: yellow;
   border: 2px solid black;
   text-align: center;
@@ -30,25 +31,31 @@ div.team_container {
 
 div.log_league {
  background-color: rgb(3,68,132);
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+
 }
 
-div.log_top_left h1{
+div.log-right {
   font-size: 35px;
-  color:white;
-
+  color:black;
+  border-radius: 200px;
+  background-image:url("https://resources-pl.pulselive.com/ver/i/elements/premier-league-logo-header.png");
+ flex:1;
 }
-div.premier_league {
+div.log-left{
   text-align: center;
   color: black;
   font-size: 30px;
   font-family: cursive;
-
+  flex:3;
 }
-
+div.log-left a{
+  color:white;
+  text-decoration: none;
+}
 div.players_show {
 width: 80%;
 height: auto;
@@ -82,16 +89,16 @@ div.container_show h3 {
   font-family: cursive;
   color:white;
 }
-.container_show {
+div.container_show {
   background-color: gray;
 }
-div.new_member {
-  text-align: center;
-  background-color: blue;
 
-}
-div.new_team_name {
-  display: flex;
-  flex-direction: row;
-  
+div.form {
+  background-color: rgb(217,107,117);
+  color:red;
+  margin: auto;
+  width: 20%;
+  border: 2px solid black;
+  padding: 50px;
+
 }

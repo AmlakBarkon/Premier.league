@@ -2,12 +2,22 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+
 div.player_show_container {
   text-align: center;
   border: 3px solid black;
  background-color: black;
+
 }
 div.player_history_show {
   background-color: yellow;
   color:blue;
+}
+div.edit_player {
+  width: 25%;
+  margin: auto;
+  margin-top: 30px;
+   background-color: rgb(85,120,148);
+  border:2px solid black;
 }

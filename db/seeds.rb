@@ -65,20 +65,21 @@ teams = Team.create([{team_name: "Chelsea", coach: "Antonio Conte",log:"https://
     {name:"Simon Mignolet",nationality:"Belgium",age:29,img_url:"http://s.weltsport.net/bilder/spieler/gross/40121.jpg",team_id:5},
     {name:"Alberto Moreno", nationality:"Spain",age:25,img_url:"http://s.weltsport.net/bilder/spieler/gross/209880.jpg",team_id:3},
     {name:"Trent Alexander-Arnold", nationality:"England",age:"19",img_url:"http://s.weltsport.net/bilder/spieler/gross/288031.jpg",team_id:3},
-  {name:"Nathaniel Clyne",nationality:"England",age:26,img_url:"http://s.weltsport.net/bilder/spieler/gross/132676.jpg",team_id:3},
-{name:"Joe Gomez",nationality:"England",age:20, img_url:"http://s.weltsport.net/bilder/spieler/gross/268348.jpg",team_id:9},
-{name:"Ragnar Klavan", nationality:"Estonia",age:32,img_url:"http://s.weltsport.net/bilder/spieler/gross/14457.jpg",team_id:3},
-{name:"Dejan Lovren",nationality:"Croatia",age:28,img_url:"http://s.weltsport.net/bilder/spieler/gross/38683.jpg",team_id:3},
-{name:"Joel Matip",nationality:"Cameroon",age:26,img_url:"http://s.weltsport.net/bilder/spieler/gross/156057.jpg",team_id:3},
+    {name:"Nathaniel Clyne",nationality:"England",age:26,img_url:"http://s.weltsport.net/bilder/spieler/gross/132676.jpg",team_id:3},
+    {name:"Joe Gomez",nationality:"England",age:20, img_url:"http://s.weltsport.net/bilder/spieler/gross/268348.jpg",team_id:9},
+    {name:"Ragnar Klavan", nationality:"Estonia",age:32,img_url:"http://s.weltsport.net/bilder/spieler/gross/14457.jpg",team_id:3},
+    {name:"Dejan Lovren",nationality:"Croatia",age:28,img_url:"http://s.weltsport.net/bilder/spieler/gross/38683.jpg",team_id:3},
+    {name:"Joel Matip",nationality:"Cameroon",age:26,img_url:"http://s.weltsport.net/bilder/spieler/gross/156057.jpg",team_id:3},
 
-{name:"Claudio Vravo",age:34,nationality:"Chile",img_url:"http://s.weltsport.net/bilder/spieler/gross/22943.jpg",team_id:4},
-{name:"Willy Caballero",age:36,nationality:"Argentina",img_url:"http://s.weltsport.net/bilder/spieler/gross/17550.jpg",team_id:8},
-{name:"Angus Gunn",age:21,nationality:"England",img_url:"http://s.weltsport.net/bilder/spieler/gross/227845.jpg",team_id:4},
-{name:"Tosin Adarabioyo",age:20,nationality:"England",img_url:"http://s.weltsport.net/bilder/spieler/gross/252240.jpg",team_id:4},
-{name:"Gael Clichy",age:32,nationality:"France", img_url:"http://s.weltsport.net/bilder/spieler/gross/12518.jpg",team_id:4},
-{name:"Aleksandar Kolarov",age:31,nationality:"Serbia",img_url:"http://s.weltsport.net/bilder/spieler/gross/47704.jpg",team_id:4},
-{name:"Vincent Kompany",age:32,nationality:"Belgium",img_url:"http://s.weltsport.net/bilder/spieler/gross/14122.jpg",team_id:4},
+    {name:"Claudio Vravo",age:34,nationality:"Chile",img_url:"http://s.weltsport.net/bilder/spieler/gross/22943.jpg",team_id:4},
+    {name:"Willy Caballero",age:36,nationality:"Argentina",img_url:"http://s.weltsport.net/bilder/spieler/gross/17550.jpg",team_id:8},
+    {name:"Angus Gunn",age:21,nationality:"England",img_url:"http://s.weltsport.net/bilder/spieler/gross/227845.jpg",team_id:4},
+    {name:"Tosin Adarabioyo",age:20,nationality:"England",img_url:"http://s.weltsport.net/bilder/spieler/gross/252240.jpg",team_id:4},
+    {name:"Gael Clichy",age:32,nationality:"France", img_url:"http://s.weltsport.net/bilder/spieler/gross/12518.jpg",team_id:4},
+    {name:"Aleksandar Kolarov",age:31,nationality:"Serbia",img_url:"http://s.weltsport.net/bilder/spieler/gross/47704.jpg",team_id:4},
+    {name:"Vincent Kompany",age:32,nationality:"Belgium",img_url:"http://s.weltsport.net/bilder/spieler/gross/14122.jpg",team_id:4},
 
+# Try to stay uniform with your indentations
 
 
   ])

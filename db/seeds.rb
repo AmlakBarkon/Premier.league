@@ -8,11 +8,11 @@
 Player.destroy_all
 Team.destroy_all
 
-teams = Team.create([{team_name: "Chelsea", coach: "Antonio Conte",log:"https://lh3.googleusercontent.com/-_-grPaix4ZQ/AAAAAAAAAAI/AAAAAAAAr30/P4xhpy_3OwY/s0-c-k-no-ns/photo.jpg"},
-  {team_name: "Spurs", coach: "Mauricio Pochettino",log:"https://lh4.googleusercontent.com/-t0SomHTxYHY/AAAAAAAAAAI/AAAAAAAA73k/L2dziLIlzX4/s0-c-k-no-ns/photo.jpg"},
-  {team_name: "Liverpool", coach: "Antoni",log:"https://lh3.googleusercontent.com/-TrtEHOgcMFE/AAAAAAAAAAI/AAAAAAABaus/7gBUqvDpeh0/s0-c-k-no-ns/photo.jpg"},
-  {team_name: "Man City", coach: "Antoni",log:"https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/1024px-Manchester_City_FC_badge.svg.png"},
-  {team_name: "Man Und", coach: "Antonio Cont",log:"https://lh3.googleusercontent.com/-iDzlv7IG4rY/AAAAAAAAAAI/AAAAAAACt08/TDoZ8813pzM/s0-c-k-no-ns/photo.jpg"},
+teams = Team.create([{team_name: "Coaching", coach: "Antonio Conte",log:"https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/16665073_1895889973976136_8599768316819883479_o.jpg?oh=e974cd1bf6c22ae451ff642f96bfb4e7&oe=59C06D77"},
+  {team_name: "Winter", coach: "Mauricio Pochettino",log:"https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/16602835_1895888277309639_185315090814726302_n.jpg?oh=05f521117e831bf0fd5e2fc4b4b05d33&oe=59B8C5AB"},
+  {team_name: "Befor The Game", coach: "Antoni",log:"https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/14937290_1845326052365862_7167609796091891376_n.jpg?oh=8a723df179985c58c554a775262cde96&oe=59C23C7D"},
+  {team_name: "After the Game", coach: "Antoni",log:"https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/14732341_1845324352366032_5451067005888871945_n.jpg?oh=b22718a6f347b94d90a18051ae97f670&oe=59B634DA"},
+  {team_name: "This is how we Chill", coach: "Antonio Cont",log:"https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/12495218_1723225061242629_1670846029454168746_n.jpg?oh=cf86080622a34f04564ea995fcd32f9d&oe=59B3871D"},
   {team_name: "Arsenal", coach: "Antonio Cone",log:"https://lh4.googleusercontent.com/-dZ2LhrpNpxs/AAAAAAAAAAI/AAAAAAAA1os/qrf-VeTVJrg/s0-c-k-no-ns/photo.jpg"},
   {team_name: "Everton", coach: "Antoio Conte",log:"https://lh5.googleusercontent.com/-JHwrktRrH8Y/AAAAAAAAAAI/AAAAAAAAAhU/GwANSmjfqOM/s0-c-k-no-ns/photo.jpg"},
   {team_name: "West Brom", coach: "Antoio Conte",log:"https://lh3.googleusercontent.com/-mpD6xlml_4I/AAAAAAAAAAI/AAAAAAAAFBA/dUrQgjdvP78/s0-c-k-no-ns/photo.jpg"},
@@ -20,8 +20,8 @@ teams = Team.create([{team_name: "Chelsea", coach: "Antonio Conte",log:"https://
   {team_name: "Watford", coach: "Anio Conte",log:"https://lh5.googleusercontent.com/-83oXsQsPRiY/AAAAAAAAAAI/AAAAAAAAASg/ejT5GBoB6Ko/photo.jpg"},
   {team_name: "StokE", coach: "Antonio Conte",log:"https://lh5.googleusercontent.com/-dmb21JHr1Ys/AAAAAAAAAAI/AAAAAAAAAeE/VXAepP81Pro/s0-c-k-no-ns/photo.jpg"}
   ])
-  players = Player.create([{name: "Eduardo",nationality:"Portugal",age:34,img_url:"http://s.weltsport.net/bilder/spieler/gross/26152.jpg",team_id:1},
-    {name:"Ola Aina", nationality: "England",age:21,img_url: "http://s.weltsport.net/bilder/spieler/gross/252227.jpg",team_id:1},
+  players = Player.create([{name: "Eduardo",nationality:"Portugal",age:34,img_url:"https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/13769518_1798072940424507_2573299404272953934_n.jpg?oh=9e8561f01cb7fa9d4615275cc0b5b577&oe=597662E2",team_id:1},
+    {name:"Ola Aina", nationality: "England",age:21,img_url: "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/12074926_1692333494331786_1853899712912441454_n.jpg?oh=d39d8a6e5f3b2c059d3fc4fff66d7f79&oe=5981128C",team_id:1},
     {name: "Nathan",nationality: "Netherland", age:22,img_url: "http://s.weltsport.net/bilder/spieler/gross/189568.jpg",team_id:1},
     {name: "Azpilicueta",nationality: "Spain", age: 18,img_url:"http://s.weltsport.net/bilder/spieler/gross/79198.jpg",team_id:1},
     {name:"Azpilicueta",nationality:"spain",age:18,img_url:"http://s.weltsport.net/bilder/spieler/gross/79198.jpg",team_id:1},

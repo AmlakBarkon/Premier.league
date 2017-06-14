@@ -6,6 +6,8 @@ class CreatePlayers < ActiveRecord::Migration[5.0]
       t.integer :age
       t.string :img_url
       t.integer :team_id
+      # For foreign keys, use
+      # t.references :team, foreign_key: true
     end
   end
 end

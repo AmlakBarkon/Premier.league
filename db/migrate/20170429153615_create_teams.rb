@@ -4,6 +4,7 @@ class CreateTeams < ActiveRecord::Migration[5.0]
       t.string :team_name
       t.string :coach
       t.string :log
+      # be careful of spelling errors, for example, :log above should be :logo
     end
   end
 end

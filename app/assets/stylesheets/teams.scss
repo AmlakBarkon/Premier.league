@@ -5,8 +5,11 @@ body {
   background-color: gray;
 }
 
-div.wrapper {
 
+// Generally, you don't need to reference html element types in CSS selectors. For example,
+// below, you could just select for .wrapper
+
+div.wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

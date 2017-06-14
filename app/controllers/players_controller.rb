@@ -2,19 +2,14 @@ class PlayersController < ApplicationController
   def show
     @team = Team.find(params[:team_id])
     @player = Player.find(params[:id])
-
   end
   def new
-
     @team = Team.find(params[:team_id])
-      @player = Player.new
-
+    @player = Player.new
   end
   def edit
     @team = Team.find(params[:team_id])
-   @player = Player.find(params[:id])
-
-
+    @player = Player.find(params[:id])
   end
   def update
     @team = Team.find(params[:team_id])
@@ -29,7 +24,6 @@ class PlayersController < ApplicationController
     redirect_to team_path(@team)
   end
   def create
-
     @team = Team.find(params[:team_id])
     @player = @team.players.create(player_params)
     redirect_to team_path(@team)

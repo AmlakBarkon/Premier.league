@@ -1,17 +1,18 @@
 
 
 <div class ="form">
-  <% @team.errors.full_messages.each do |message| %>
+  <% @f.errors.full_messages.each do |message| %>
     <p><%= message %></p>
   <% end %>
   <h1> Join the Premier League </h1>
-  <%= form_for @team do |team| %>
-  <h4>  <%= team.label :team_name %></h4>
-  <%= team.text_field :team_name, :size =>30%>
-  <h4><%= team.label :coach %></h4>
-  <%= team.text_field :coach, :size =>30%>
-  <h4>  <%= team.label :Log %></h4>
-  <%= team.text_field :log, :size =>30 %>
-  <h4><%= team.submit "Join" %></h4>
+  <%= form_for @team do |f| %>
+  <%# use |f| to represent 'field' %>
+  <h4><%= f.label :team_name %></h4>
+  <%= f.text_field :team_name, :size =>30%>
+  <h4><%= f.label :coach %></h4>
+  <%= f.text_field :coach, :size =>30%>
+  <h4><%= f.label :Log %></h4>
+  <%= f.text_field :log, :size =>30 %>
+  <h4><%= f.submit "Join" %></h4>
   <% end %>
 </div>
